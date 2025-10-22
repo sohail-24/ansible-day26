@@ -1,6 +1,6 @@
 ---
 - name: Install and start Nginx using Ansible
-  hosts: web
+  hosts: webserver
   become: yes
   tasks:
     - name: Install Nginx
